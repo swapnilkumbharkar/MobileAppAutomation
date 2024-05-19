@@ -21,6 +21,8 @@ Setup-:
 2. Ensure Maven is Installed
 3. configure device - **_adb devices_**
 4. Start Appium server for the given url - http://127.0.0.1:4723
+5. Add your device configuration in **_config.properties_** file
+6. Build the project
 
 Run-:
 To run execute tests use - **_mvn test_**
