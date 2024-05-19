@@ -30,3 +30,42 @@ To run execute tests use - **_mvn test_**
 Reports-:
 After the complete execution for the reports refer **test-output** folder
 
+For Scenarios - please refer the **_LoginScenario.feature_** file
+Adding Project Structure for reference
+       
++---src
+|   +---main
+|   |   \---java
+|   |       \---Features
+|   |           \---example
+|   |                   App.java
+|   |                   
+|   \---test
+|       +---java
+|       |   +---Features
+|       |   |       LoginScenario.feature
+|       |   |       
+|       |   +---Pages
+|       |   |       FirstPage.java
+|       |   |       LoginPage.java
+|       |   |       
+|       |   +---Steps
+|       |   |       AppSteps.java
+|       |   |       BasePage.java
+|       |   |       
+|       |   \---Utils
+|       |           AppUtil.java
+|       |           ConfigUtil.java
+|       |           TestContext.java
+|       |           TestRunner.java
+|       |           
+|       \---resources
+|               Android-MyDemoAppRN.1.3.0.build-244.apk
+|               config.properties
+|               cucumber.properties
+|               
+|               
+\---test-output
+        Cucumber.html
+        Cucumber.json
+
