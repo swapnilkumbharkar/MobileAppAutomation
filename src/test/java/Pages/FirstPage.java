@@ -42,8 +42,4 @@ public class FirstPage
         return getPageHeader.getText();
     }
 
-    public void verifyAppStarted()
-    {
-
-    }
 }
